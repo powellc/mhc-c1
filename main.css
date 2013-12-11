@@ -1,0 +1,6 @@
+#manatee { width: 900px; height: 675px; background-image: url("manatee.jpg"); animation: play .8s steps(100) infinite; }
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -900px; }
+}
